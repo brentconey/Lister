@@ -22,9 +22,9 @@ namespace Yearnly.Web
             //    consumerKey: "",
             //    consumerSecret: "");
 
-            //OAuthWebSecurity.RegisterFacebookClient(
-            //    appId: "",
-            //    appSecret: "");
+            OAuthWebSecurity.RegisterFacebookClient(
+                appId: "409283862466954",
+                appSecret: "28df6d1fcd656044f3a0a1424b14fff9");
 
             //OAuthWebSecurity.RegisterGoogleClient();
         }
