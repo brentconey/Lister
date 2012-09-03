@@ -12,8 +12,8 @@ namespace Yearnly.Web.Controllers
         public ActionResult Index()
         {
             ViewBag.Message = "The online want list.";
-            MembershipUser user = Membership.GetUser();
-            ViewBag.UserId = user.ProviderUserKey;
+            //MembershipUser user = Membership.GetUser();
+            //ViewBag.UserId = user.ProviderUserKey;
             return View();
         }
     }
