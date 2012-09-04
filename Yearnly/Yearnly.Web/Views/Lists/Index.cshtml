@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Lists</h2>
+
+<ul>
+@foreach (Yearnly.Model.UserList row in ViewBag.UsersLists)
+{
+    <li><a href="/lists/edit/@row.Id">@row.Name</a></li>
+}
+</ul>

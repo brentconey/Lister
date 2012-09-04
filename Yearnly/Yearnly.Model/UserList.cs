@@ -12,12 +12,12 @@ namespace Yearnly.Model
     using System;
     using System.Collections.Generic;
     
-    public partial class List
+    public partial class UserList
     {
         public int Id { get; set; }
         public int UserId { get; set; }
         public string Name { get; set; }
-        public System.DateTime DateCreated { get; set; }
+        public Nullable<System.DateTime> DateCreated { get; set; }
     
         public virtual UserProfile UserProfile { get; set; }
     }

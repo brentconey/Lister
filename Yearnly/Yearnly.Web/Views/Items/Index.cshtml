@@ -1,6 +1,13 @@
 ﻿@{
     ViewBag.Title = "Index";
+    List<Yearnly.Model.UserItem> userItems = ViewBag.UserItems;
 }
 
 <h2>Items</h2>
 <p>All your items will be here. If you'd like, you can <a href="/items/add">add one</a>.</p>
+@foreach (Yearnly.Model.UserItem row in userItems)
+{
+    <h3>@row.Title</h3>
+    <p>@row.Link</p>
+    <p>@row.Description</p>
+}

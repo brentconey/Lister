@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "Edit";
+    Yearnly.Model.UserList editingList = ViewBag.EditList;
+}
+
+<h2>Edit</h2>
+
+<form method="post" action="/lists/savechanges">
+    <input type="text" value="@editingList.Name" id="" />
+    <input type="submit" value="Save" />
+</form>

@@ -12,18 +12,15 @@ namespace Yearnly.Model
     using System;
     using System.Collections.Generic;
     
-    public partial class UserProfile
+    public partial class UserItem
     {
-        public UserProfile()
-        {
-            this.UserLists = new HashSet<UserList>();
-            this.UserItems = new HashSet<UserItem>();
-        }
-    
+        public int Id { get; set; }
         public int UserId { get; set; }
-        public string UserName { get; set; }
+        public string Title { get; set; }
+        public string Link { get; set; }
+        public string Description { get; set; }
+        public Nullable<System.DateTime> DateCreated { get; set; }
     
-        public virtual ICollection<UserList> UserLists { get; set; }
-        public virtual ICollection<UserItem> UserItems { get; set; }
+        public virtual UserProfile UserProfile { get; set; }
     }
 }

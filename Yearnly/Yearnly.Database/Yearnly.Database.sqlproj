@@ -64,6 +64,7 @@
     <Build Include="dbo\Tables\webpages_Membership.sql" />
     <Build Include="dbo\Tables\webpages_Roles.sql" />
     <Build Include="dbo\Tables\webpages_UsersInRoles.sql" />
-    <Build Include="dbo\Tables\List.sql" />
+    <Build Include="dbo\Tables\UserList.sql" />
+    <Build Include="dbo\Tables\UserItem.sql" />
   </ItemGroup>
 </Project>

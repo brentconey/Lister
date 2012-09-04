@@ -164,6 +164,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ItemsController.cs" />
+    <Compile Include="Controllers\ListsController.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -172,6 +173,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Content Include="Views\Items\Index.cshtml" />
     <Content Include="Views\Items\Add.cshtml" />
+    <Content Include="Views\Lists\New.cshtml" />
+    <Content Include="Views\Lists\Index.cshtml" />
+    <Content Include="Views\Lists\Edit.cshtml" />
     <None Include="_AppStart.cshtml" />
   </ItemGroup>
   <ItemGroup>

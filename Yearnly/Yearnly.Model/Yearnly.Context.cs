@@ -25,7 +25,8 @@ namespace Yearnly.Model
             throw new UnintentionalCodeFirstException();
         }
     
-        public DbSet<List> Lists { get; set; }
         public DbSet<UserProfile> UserProfiles { get; set; }
+        public DbSet<UserList> UserLists { get; set; }
+        public DbSet<UserItem> UserItems { get; set; }
     }
 }
